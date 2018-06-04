@@ -1,0 +1,79 @@
+[
+  {
+    "description": "  As a Unity Admin\n  I need to validate login permissions\n  So I can ensure correct login states",
+    "elements": [
+      {
+        "id": "login;login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login with invalid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I access \"https://qa-app.cadreon.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 8627395204
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/dtran/Work/Work/cucumber-chimp/features/step_definitions/login.step.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I access Unity with invalid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1119206563
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/dtran/Work/Work/cucumber-chimp/features/step_definitions/login.step.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should receive a warning",
+            "result": {
+              "status": "passed",
+              "duration": 41857636
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/dtran/Work/Work/cucumber-chimp/features/step_definitions/login.step.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 165445
+            },
+            "hidden": true,
+            "match": {
+              "location": "/usr/local/lib/node_modules/chimp/dist/lib/cucumberjs/hooks.js:68"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@watch",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login",
+    "tags": [],
+    "uri": "/Users/dtran/Work/Work/cucumber-chimp/features/Login.feature"
+  }
+]

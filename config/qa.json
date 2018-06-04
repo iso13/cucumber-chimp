@@ -1,0 +1,4 @@
+{
+  "baseUrl": "http://qa-app.cadreon.com",
+  "baseApiUrl": "https://qa-api.cadreon.com/optimization/v1.0"
+}

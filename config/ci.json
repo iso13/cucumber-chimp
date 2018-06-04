@@ -1,0 +1,4 @@
+{
+  "baseUrl": "http://ci-app.cadreon.com",
+  "baseApiUrl": "https://ci-api.cadreon.com/optimization/v1.0"
+}
